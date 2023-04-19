@@ -1,0 +1,14 @@
+/home/zhe/Workspace/chipyard/sims/verilator/generated-src/chipyard.TestHarness.RocketConfig/SimJTAG.v
+/home/zhe/Workspace/chipyard/sims/verilator/generated-src/chipyard.TestHarness.RocketConfig/SimJTAG.cc
+/home/zhe/Workspace/chipyard/sims/verilator/generated-src/chipyard.TestHarness.RocketConfig/remote_bitbang.cc
+/home/zhe/Workspace/chipyard/sims/verilator/generated-src/chipyard.TestHarness.RocketConfig/SimSerial.v
+/home/zhe/Workspace/chipyard/sims/verilator/generated-src/chipyard.TestHarness.RocketConfig/SimSerial.cc
+/home/zhe/Workspace/chipyard/sims/verilator/generated-src/chipyard.TestHarness.RocketConfig/testchip_tsi.cc
+/home/zhe/Workspace/chipyard/sims/verilator/generated-src/chipyard.TestHarness.RocketConfig/plusarg_reader.v
+/home/zhe/Workspace/chipyard/sims/verilator/generated-src/chipyard.TestHarness.RocketConfig/SimDRAM.v
+/home/zhe/Workspace/chipyard/sims/verilator/generated-src/chipyard.TestHarness.RocketConfig/SimDRAM.cc
+/home/zhe/Workspace/chipyard/sims/verilator/generated-src/chipyard.TestHarness.RocketConfig/mm.cc
+/home/zhe/Workspace/chipyard/sims/verilator/generated-src/chipyard.TestHarness.RocketConfig/mm_dramsim2.cc
+/home/zhe/Workspace/chipyard/sims/verilator/generated-src/chipyard.TestHarness.RocketConfig/SimUART.v
+/home/zhe/Workspace/chipyard/sims/verilator/generated-src/chipyard.TestHarness.RocketConfig/SimUART.cc
+/home/zhe/Workspace/chipyard/sims/verilator/generated-src/chipyard.TestHarness.RocketConfig/uart.cc
