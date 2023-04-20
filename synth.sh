@@ -1,6 +1,17 @@
+gc_kernel=none
+parallel=none
+
+while getopts m: flag
+do
+	case "${flag}" in
+	  m) microarch=${OPTARG};;
+	esac
+done
+
+
 cd synth
 
-keep_files=("common_setup.tcl" "dc-pop.tcl" "cc_dir_ext.constraints.tcl")
+keep_files=("common_setup.tcl" "cc_dir_ext.tcl" "cc_dir_ext.constraints.tcl")
 
 # Loop through all files in the directory
 for file in *
@@ -16,4 +27,4 @@ done
 cp ../src/* ./
 
 
-dc_shell -64bit -topo -f dc-pop.tcl
+dc_shell -64bit -topo -f ${microarch}.tcl

@@ -6,9 +6,6 @@
 set DESIGN_NAME   "cc_dir_ext" 
 source -echo -verbose common_setup.tcl
 
-read_db /home/zj266/workspace/GC_Backend/src/saed14sram_ss0p72v125c.db
-set search_path [concat $search_path /home/zj266/workspace/GC_Backend/src/]
-
 set DCRM_CONSTRAINTS_INPUT_FILE ${DESIGN_NAME}.constraints.tcl
 
 set_app_var mw_logic1_net ${MW_POWER_NET}
