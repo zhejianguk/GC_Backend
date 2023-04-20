@@ -12,8 +12,3 @@ do
     rm -rf "${file}"
   fi
 done
-
-cp ../src/* ./
-
-
-dc_shell -64bit -topo -f dc-pop.tcl

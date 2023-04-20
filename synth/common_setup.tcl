@@ -52,6 +52,11 @@ set TARGET_LIBRARY_FILES   "\
     ${DESIGN_REF_PATH}/lib/stdcell_rvt/db_nldm/saed14rvt_ff0p88v25c.db \
     ${DESIGN_REF_PATH}/lib/stdcell_rvt/db_nldm/saed14rvt_ss0p72v125c.db "
 
+set ADDITIONAL_LINK_WC_LIB "/home/zj266/workspace/GC_Backend/src/saed14sram_ss0p72v125c.db"
+
+set ADDITIONAL_LINK_LIB_FILES $ADDITIONAL_LINK_WC_LIB ;
+
+
 # Reference libraries for the IC Compiler II tool use the new data model (NDM) format
 #set NDM_REFERENCE_LIB_DIRS  " \
 #	${DESIGN_REF_PATH}/lib/stdcell_rvt/ndm/saed14rvt_frame_only.ndm \

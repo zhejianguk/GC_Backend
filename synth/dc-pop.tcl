@@ -3,8 +3,10 @@
 
 # fails if -topo is used, library issue? missing tluplus files?
 
-set DESIGN_NAME   "simple" 
+set DESIGN_NAME   "cc_dir_ext" 
 source -echo -verbose common_setup.tcl
+
+
 
 set DCRM_CONSTRAINTS_INPUT_FILE ${DESIGN_NAME}.constraints.tcl
 
@@ -27,10 +29,14 @@ if {![file isdirectory $mw_design_library ]} {
 # move this above?
 open_mw_lib   $mw_design_library
 
-analyze -format sverilog lib.v
-analyze -format sverilog simple.v
-elaborate simple
-current_design simple
+glob ./*.v
+set files [glob *.v]
+foreach file $files {
+    analyze -format sverilog $file
+}
+
+elaborate cc_dir_ext
+current_design cc_dir_ext
 link
 
 set_operating_conditions -analysis_type bc_wc \
@@ -49,4 +55,6 @@ source -echo -verbose ${DCRM_CONSTRAINTS_INPUT_FILE}
 compile_ultra
 
 report_timing
+
+report_area
 
