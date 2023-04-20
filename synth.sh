@@ -1,5 +1,4 @@
-gc_kernel=none
-parallel=none
+microarch=none
 
 while getopts m: flag
 do
@@ -24,7 +23,8 @@ do
   fi
 done
 
-cp ../src/* ./
+if [[ $microarch != none ]]; then
+  cp ../src/* ./
+  dc_shell -64bit -topo -f ${microarch}.tcl
+fi
 
-
-dc_shell -64bit -topo -f ${microarch}.tcl
