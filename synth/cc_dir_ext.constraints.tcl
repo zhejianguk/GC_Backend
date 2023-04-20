@@ -1,5 +1,5 @@
 
-set clk_period 4.0
+set clk_period 1
 create_clock -period $clk_period RW0_clk
 
 #set DRIVE_CELL INV_X2B_A9TL50
