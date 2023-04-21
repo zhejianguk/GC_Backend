@@ -1,3 +1,4 @@
 gen_*
 *.log
 ndm
+synth/*

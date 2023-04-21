@@ -10,7 +10,7 @@ done
 
 cd synth
 
-keep_files=("common_setup.tcl" "cc_dir_ext.tcl" "cc_dir_ext.constraints.tcl")
+keep_files=("common_setup.tcl" "cc_dir_ext.tcl" "cc_dir_ext.constraints.tcl" "ChipTop.tcl" "ChipTop.constraints.tcl")
 
 # Loop through all files in the directory
 for file in *
