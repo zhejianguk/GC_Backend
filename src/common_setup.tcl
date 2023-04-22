@@ -51,7 +51,18 @@ set ADDITIONAL_SEARCH_PATH      " \
 set LINK_LIBRARY_FILES    "* \
     ${DESIGN_REF_PATH}/lib/stdcell_rvt/db_nldm/saed14rvt_ff0p88v25c.db \
     ${DESIGN_REF_PATH}/lib/stdcell_rvt/db_nldm/saed14rvt_ss0p72v125c.db \
-    /home/zj266/workspace/GC_Backend/src/saed14sram_ss0p72v125c.db"
+    /home/zj266/workspace/GC_Backend/src/ChipTop/saed14sram_ss0p72v125c_32x64.db \
+    /home/zj266/workspace/GC_Backend/src/ChipTop/saed14sram_ss0p72v125c_32x128.db \
+    /home/zj266/workspace/GC_Backend/src/ChipTop/saed14sram_ss0p72v125c_64x128.db \
+    /home/zj266/workspace/GC_Backend/src/ChipTop/saed14sram_ss0p72v125c_64x256.db \
+    /home/zj266/workspace/GC_Backend/src/ChipTop/saed14sram_ss0p72v125c_128x4.db \
+    /home/zj266/workspace/GC_Backend/src/ChipTop/saed14sram_ss0p72v125c_128x64.db \
+    /home/zj266/workspace/GC_Backend/src/ChipTop/saed14sram_ss0p72v125c_128x128.db \
+    /home/zj266/workspace/GC_Backend/src/ChipTop/saed14sram_ss0p72v125c_128x256.db \
+    /home/zj266/workspace/GC_Backend/src/ChipTop/saed14sram_ss0p72v125c_256x4.db \
+    /home/zj266/workspace/GC_Backend/src/ChipTop/saed14sram_ss0p72v125c_256x8.db \
+    /home/zj266/workspace/GC_Backend/src/ChipTop/saed14sram_ss0p72v125c_256x128.db \
+    /home/zj266/workspace/GC_Backend/src/ChipTop/saed14sram_ss0p72v125c_256x64.db "
 
 set TARGET_LIBRARY_FILES   "\
     ${DESIGN_REF_PATH}/lib/stdcell_rvt/db_nldm/saed14rvt_ff0p88v25c.db \

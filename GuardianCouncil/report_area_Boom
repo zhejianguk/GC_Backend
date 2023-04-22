@@ -1,0 +1,223 @@
+report_area
+ 
+****************************************
+Report : area
+Design : TileResetDomain
+Version: U-2022.12-SP2
+Date   : Sat Apr 22 17:59:28 2023
+****************************************
+
+Library(s) Used:
+
+    saed14rvt_ff0p88v25c (File: /local/scratch/kits/synopsys_14/lib/stdcell_rvt/db_nldm/saed14rvt_ff0p88v25c.db)
+    saed14sram_ss0p72v125c (File: /home/zj266/workspace/GC_Backend/src/ChipTop/saed14sram_ss0p72v125c_64x256.db)
+    saed14sram_ss0p72v125c (File: /home/zj266/workspace/GC_Backend/src/ChipTop/saed14sram_ss0p72v125c_256x128.db)
+    saed14sram_ss0p72v125c (File: /home/zj266/workspace/GC_Backend/src/ChipTop/saed14sram_ss0p72v125c_256x64.db)
+    saed14sram_ss0p72v125c (File: /home/zj266/workspace/GC_Backend/src/ChipTop/saed14sram_ss0p72v125c_128x4.db)
+    saed14sram_ss0p72v125c (File: /home/zj266/workspace/GC_Backend/src/ChipTop/saed14sram_ss0p72v125c_32x128.db)
+    saed14sram_ss0p72v125c (File: /home/zj266/workspace/GC_Backend/src/ChipTop/saed14sram_ss0p72v125c_64x128.db)
+    saed14sram_ss0p72v125c (File: /home/zj266/workspace/GC_Backend/src/ChipTop/saed14sram_ss0p72v125c_128x64.db)
+    saed14sram_ss0p72v125c (File: /home/zj266/workspace/GC_Backend/src/ChipTop/saed14sram_ss0p72v125c_256x4.db)
+    saed14sram_ss0p72v125c (File: /home/zj266/workspace/GC_Backend/src/ChipTop/saed14sram_ss0p72v125c_256x8.db)
+    saed14sram_ss0p72v125c (File: /home/zj266/workspace/GC_Backend/src/ChipTop/saed14sram_ss0p72v125c_128x128.db)
+
+Number of ports:                        71822
+Number of nets:                       1444985
+Number of cells:                      1366081
+Number of combinational cells:        1208535
+Number of sequential cells:            155784
+Number of macros/black boxes:             135
+Number of buf/inv:                     195994
+Number of references:                       3
+
+Combinational area:             431234.023585
+Buf/Inv area:                    42279.455257
+Noncombinational area:          146420.852453
+Macro/Black Box area:           311327.123779
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                888981.999817
+Total area:                 undefined
+1
+report_area -hier
+ 
+****************************************
+Report : area
+Design : TileResetDomain
+Version: U-2022.12-SP2
+Date   : Sat Apr 22 17:59:29 2023
+****************************************
+
+Library(s) Used:
+
+    saed14rvt_ff0p88v25c (File: /local/scratch/kits/synopsys_14/lib/stdcell_rvt/db_nldm/saed14rvt_ff0p88v25c.db)
+    saed14sram_ss0p72v125c (File: /home/zj266/workspace/GC_Backend/src/ChipTop/saed14sram_ss0p72v125c_64x256.db)
+    saed14sram_ss0p72v125c (File: /home/zj266/workspace/GC_Backend/src/ChipTop/saed14sram_ss0p72v125c_256x128.db)
+    saed14sram_ss0p72v125c (File: /home/zj266/workspace/GC_Backend/src/ChipTop/saed14sram_ss0p72v125c_256x64.db)
+    saed14sram_ss0p72v125c (File: /home/zj266/workspace/GC_Backend/src/ChipTop/saed14sram_ss0p72v125c_128x4.db)
+    saed14sram_ss0p72v125c (File: /home/zj266/workspace/GC_Backend/src/ChipTop/saed14sram_ss0p72v125c_32x128.db)
+    saed14sram_ss0p72v125c (File: /home/zj266/workspace/GC_Backend/src/ChipTop/saed14sram_ss0p72v125c_64x128.db)
+    saed14sram_ss0p72v125c (File: /home/zj266/workspace/GC_Backend/src/ChipTop/saed14sram_ss0p72v125c_128x64.db)
+    saed14sram_ss0p72v125c (File: /home/zj266/workspace/GC_Backend/src/ChipTop/saed14sram_ss0p72v125c_256x4.db)
+    saed14sram_ss0p72v125c (File: /home/zj266/workspace/GC_Backend/src/ChipTop/saed14sram_ss0p72v125c_256x8.db)
+    saed14sram_ss0p72v125c (File: /home/zj266/workspace/GC_Backend/src/ChipTop/saed14sram_ss0p72v125c_128x128.db)
+
+Number of ports:                        71822
+Number of nets:                       1444985
+Number of cells:                      1366081
+Number of combinational cells:        1208535
+Number of sequential cells:            155784
+Number of macros/black boxes:             135
+Number of buf/inv:                     195994
+Number of references:                       3
+
+Combinational area:             431234.023585
+Buf/Inv area:                    42279.455257
+Noncombinational area:          146420.852453
+Macro/Black Box area:           311327.123779
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                888981.999817
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area                 Local cell area
+                                  --------------------  ------------------------------------- 
+Hierarchical cell                 Absolute     Percent  Combi-       Noncombi-    Black-
+                                  Total        Total    national     national     boxes        Design
+--------------------------------  -----------  -------  -----------  -----------  -----------  -------------------------------
+TileResetDomain                   888981.9998    100.0       1.7316       0.0000       0.0000  TileResetDomain
+boom_tile                         888980.2682    100.0    4817.7552    2338.0596    8785.4619  BoomTile
+boom_tile/core                    366666.8223     41.2    9849.6959    1518.3912       0.0000  BoomCore
+boom_tile/core/alu_exe_unit_1       2659.2048      0.3    2331.0000     328.2048       0.0000  ALUExeUnit_5
+boom_tile/core/csr                  2903.5824      0.3    1970.3388     933.2436       0.0000  CSRFile
+boom_tile/core/csr_exe_unit         2867.2188      0.3    1920.3000     946.9188       0.0000  ALUExeUnit_3
+boom_tile/core/fp_pipeline         86698.7254      9.8    5310.1512    3020.2656       0.0000  FpPipeline
+boom_tile/core/fp_pipeline/fp_issue_unit
+                                   14279.3508      1.6   11585.8692    2693.4816       0.0000  IssueUnitCollapsing
+boom_tile/core/fp_pipeline/fpiu_unit/fdivsqrt/divsqrt/mul
+                                    3446.2391      0.4    3145.0739     301.1652       0.0000  Mul54
+boom_tile/core/fp_pipeline/fpiu_unit/fpu/fpu
+                                   10607.7815      1.2    7500.3143    1432.2108       0.0000  FPU_1
+boom_tile/core/fp_pipeline/fpiu_unit/fpu/fpu/dfma/fma/mulAddRecFNToRaw_postMul
+                                    1315.6164      0.1    1315.6164       0.0000       0.0000  MulAddRecFNToRaw_postMul_2
+boom_tile/core/fp_pipeline/fpiu_unit/fpu/fpu/dfma/fma/roundRawFNToRecFN
+                                     359.6400      0.0     359.6400       0.0000       0.0000  RoundRawFNToRecFN_3
+boom_tile/core/fp_pipeline/fpu_exe_unit/fpu/fpu
+                                   10631.8907      1.2    7524.9563    1432.1664       0.0000  FPU_0
+boom_tile/core/fp_pipeline/fpu_exe_unit/fpu/fpu/dfma/fma/mulAddRecFNToRaw_postMul
+                                    1319.3460      0.1    1319.3460       0.0000       0.0000  MulAddRecFNToRaw_postMul_0
+boom_tile/core/fp_pipeline/fpu_exe_unit/fpu/fpu/dfma/fma/roundRawFNToRecFN
+                                     355.4220      0.0     355.4220       0.0000       0.0000  RoundRawFNToRecFN_0
+boom_tile/core/fp_pipeline/fregfile
+                                   39403.0465      4.4   31534.1679    7868.8787       0.0000  RegisterFileSynthesizable
+boom_tile/core/fp_rename_stage/busytable
+                                    1046.1972      0.1     926.8500     119.3472       0.0000  RenameBusyTable_1
+boom_tile/core/fp_rename_stage/freelist
+                                   10673.2272      1.2    8143.4040    2529.8232       0.0000  RenameFreeList_1
+boom_tile/core/fp_rename_stage/maptable
+                                   18932.3820      2.1   14526.9252    4405.4567       0.0000  RenameMapTable_1
+boom_tile/core/int_issue_unit      39177.5831      4.4   33515.8284    5661.7547       0.0000  IssueUnitCollapsing_2
+boom_tile/core/iregfile            82853.7750      9.3   74661.6201    8192.1549       0.0000  RegisterFileSynthesizable_1
+boom_tile/core/iregister_read       5566.7832      0.6    3499.9188    2066.8644       0.0000  RegisterRead_1
+boom_tile/core/jmp_unit             3796.5108      0.4    3005.0364     791.4744       0.0000  ALUExeUnit_2
+boom_tile/core/mem_issue_unit      15535.3824      1.7   13072.8252    2462.5572       0.0000  IssueUnitCollapsing_1
+boom_tile/core/rename_stage        31324.8215      3.5    1212.7860     884.0040       0.0000  RenameStage
+boom_tile/core/rename_stage/busytable
+                                    1316.4156      0.1    1197.0684     119.3472       0.0000  RenameBusyTable
+boom_tile/core/rename_stage/freelist
+                                   10429.8264      1.2    7911.5916    2518.2348       0.0000  RenameFreeList
+boom_tile/core/rename_stage/maptable
+                                   17481.7896      2.0   13201.3188    4280.4707       0.0000  RenameMapTable
+boom_tile/core/rob                 51263.3414      5.8   27590.7370   21468.8205    2203.7839  Rob
+boom_tile/dcache/data              67729.3746      7.6     116.0616    1909.5552   65703.7578  BoomDuplicatedDataArray
+boom_tile/dcache/mshrs             30407.1176      3.4    8595.6623    6263.5523       0.0000  BoomMSHRFile
+boom_tile/dcache/mshrs/lb_write_arb
+                                      11.4108      0.0      11.4108       0.0000       0.0000  Arbiter_1
+boom_tile/dcache/mshrs/meta_read_arb
+                                      87.3348      0.0      87.3348       0.0000       0.0000  Arbiter_3
+boom_tile/dcache/mshrs/meta_write_arb
+                                      73.0824      0.0      73.0824       0.0000       0.0000  Arbiter_2
+boom_tile/dcache/mshrs/mshrs_0/rpq
+                                    1845.0420      0.2    1031.0568     813.9852       0.0000  BranchKillableQueue_7
+boom_tile/dcache/mshrs/mshrs_1/rpq
+                                    1828.5696      0.2    1014.3624     814.2072       0.0000  BranchKillableQueue_6
+boom_tile/dcache/mshrs/mshrs_2/rpq
+                                    1820.1780      0.2    1006.1928     813.9852       0.0000  BranchKillableQueue_5
+boom_tile/dcache/mshrs/mshrs_3/rpq
+                                    1817.5584      0.2    1003.5732     813.9852       0.0000  BranchKillableQueue_4
+boom_tile/dcache/mshrs/mshrs_4/rpq
+                                    1842.1560      0.2    1028.2596     813.8964       0.0000  BranchKillableQueue_3
+boom_tile/dcache/mshrs/mshrs_5/rpq
+                                    1827.1044      0.2    1013.1192     813.9852       0.0000  BranchKillableQueue_2
+boom_tile/dcache/mshrs/mshrs_6/rpq
+                                    1854.6324      0.2    1040.4252     814.2072       0.0000  BranchKillableQueue_1
+boom_tile/dcache/mshrs/mshrs_7/rpq
+                                    1836.2508      0.2    1022.2656     813.9852       0.0000  BranchKillableQueue_0
+boom_tile/dcache/mshrs/refill_arb     44.1336      0.0      44.1336       0.0000       0.0000  Arbiter_7
+boom_tile/dcache/mshrs/replay_arb    246.3312      0.0     246.3312       0.0000       0.0000  Arbiter_5
+boom_tile/dcache/mshrs/resp_arb      318.2592      0.0     318.2592       0.0000       0.0000  Arbiter_6
+boom_tile/dcache/mshrs/wb_req_arb     95.8596      0.0      95.8596       0.0000       0.0000  Arbiter_4
+boom_tile/frontend                278271.3702     31.3    5088.5064     295.3044       0.0000  BoomFrontend
+boom_tile/frontend/bpd            169528.5671     19.1     748.9836     248.1072       0.0000  BranchPredictor
+boom_tile/frontend/bpd/banked_predictors_0
+                                   84245.9802      9.5    2582.1708    1741.8564   63525.3884  ComposedBranchPredictorBank_1
+boom_tile/frontend/bpd/banked_predictors_0/components_0/columns_0
+                                    1621.3548      0.2     944.4324     676.9224       0.0000  LoopBranchPredictorColumn_7
+boom_tile/frontend/bpd/banked_predictors_0/components_0/columns_1
+                                    1616.9148      0.2     939.9924     676.9224       0.0000  LoopBranchPredictorColumn_6
+boom_tile/frontend/bpd/banked_predictors_0/components_0/columns_2
+                                    1635.4296      0.2     958.5072     676.9224       0.0000  LoopBranchPredictorColumn_5
+boom_tile/frontend/bpd/banked_predictors_0/components_0/columns_3
+                                    1618.9572      0.2     942.0348     676.9224       0.0000  LoopBranchPredictorColumn_4
+boom_tile/frontend/bpd/banked_predictors_0/components_3
+                                    9903.9083      1.1    6326.6447    3577.2636       0.0000  FAMicroBTBBranchPredictorBank_1
+boom_tile/frontend/bpd/banked_predictors_1
+                                   84285.4961      9.5    2476.8540    1743.0996   63525.3884  ComposedBranchPredictorBank_0
+boom_tile/frontend/bpd/banked_predictors_1/components_0/columns_0
+                                    1611.7644      0.2     934.8420     676.9224       0.0000  LoopBranchPredictorColumn_3
+boom_tile/frontend/bpd/banked_predictors_1/components_0/columns_1
+                                    1631.7444      0.2     954.8220     676.9224       0.0000  LoopBranchPredictorColumn_2
+boom_tile/frontend/bpd/banked_predictors_1/components_0/columns_2
+                                    1637.7384      0.2     960.8160     676.9224       0.0000  LoopBranchPredictorColumn_1
+boom_tile/frontend/bpd/banked_predictors_1/components_0/columns_3
+                                    1619.5788      0.2     942.6564     676.9224       0.0000  LoopBranchPredictorColumn_0
+boom_tile/frontend/bpd/banked_predictors_1/components_3
+                                   10039.3282      1.1    6459.7559    3579.5724       0.0000  FAMicroBTBBranchPredictorBank_0
+boom_tile/frontend/bpd_update_arbiter
+                                     200.5992      0.0     200.5992       0.0000       0.0000  Arbiter_15
+boom_tile/frontend/f3                352.0476      0.0     116.4168     235.6308       0.0000  Queue_34
+boom_tile/frontend/f3_bpd_resp      1058.4516      0.1     533.4216     525.0300       0.0000  Queue_35
+boom_tile/frontend/f4               1252.1244      0.1     433.2552     818.8692       0.0000  Queue_37
+boom_tile/frontend/f4_btb_corrections
+                                    1098.7224      0.1     467.3988     631.3236       0.0000  Queue_36
+boom_tile/frontend/fb              14697.1548      1.7   11404.3620    3292.7928       0.0000  FetchBuffer
+boom_tile/frontend/ftq             21646.2796      2.4    7974.1512    4328.2007    9343.9277  FetchTargetQueue
+boom_tile/frontend/icache          57239.8767      6.4     976.9776    1478.8752   54759.4263  ICache
+boom_tile/frontend/icache/repl_way_prng
+                                      24.5976      0.0       9.6792      14.9184       0.0000  MaxPeriodFibonacciLFSR_1_0
+boom_tile/frontend/ras              2516.5032      0.3    1278.6756    1237.8276       0.0000  BoomRAS
+boom_tile/frontend/tlb              3297.2328      0.4    2037.5604    1259.6724       0.0000  TLB
+boom_tile/ghe                        238.1172      0.0     206.3712      31.7460       0.0000  GHE
+boom_tile/ght                      59067.1806      6.6    5485.8420    3525.1823   37184.1523  GHT
+boom_tile/ght/u_ght_filters/u_buffer_1
+                                    4310.1744      0.5    2341.7004    1968.4740       0.0000  GH_FIFO_1_2
+boom_tile/ght/u_ght_filters/u_buffer_2
+                                    4290.6384      0.5    2289.8856    2000.7528       0.0000  GH_FIFO_1_1
+boom_tile/ght/u_ght_filters/u_buffer_3
+                                    4271.1912      0.5    2332.3764    1938.8148       0.0000  GH_FIFO_1_0
+boom_tile/lsu                      60648.4018      6.8   44721.9444   10603.6522       0.0000  LSU
+boom_tile/lsu/dtlb                  5322.8052      0.6    2859.9816    1428.4368       0.0000  NBDTLB
+boom_tile/lsu/dtlb/pmp_0             503.0076      0.1     503.0076       0.0000       0.0000  PMPChecker_1_1
+boom_tile/lsu/dtlb/pmp_1             531.3792      0.1     531.3792       0.0000       0.0000  PMPChecker_1_0
+boom_tile/ptw                      10010.6073      1.1    2197.4448    1501.4304       0.0000  PTW
+boom_tile/ptw/l2_tlb_ram            6311.7321      0.7      15.8952       0.0000    6295.8369  l2_tlb_ram
+--------------------------------  -----------  -------  -----------  -----------  -----------  -------------------------------
+Total                                                   431234.0236  146420.8525  311327.1238
+
+1
+1
+Information: Term was not able to be set up using xterm-256color . Using "xterm" by default instead. (CLE-10)
+Warning: Cannot use command line editor for terminal type 'xterm-256color'.  (UI-74)

@@ -19,7 +19,12 @@ module ClockDividerN #(parameter DIV = 1)(output logic clk_out = 1'b0, input clk
                 clk_out = clk_in;
             end
         end else begin
-            reg [CWIDTH - 1: 0] count = HIGH_TRANSITION[CWIDTH-1:0];
+            reg [CWIDTH - 1: 0] count;
+
+            initial begin
+                count = HIGH_TRANSITION[CWIDTH-1:0];
+            end
+
             // The blocking assignment to clock out is used to conform what was done
             // in RC's clock dividers.
             // It should have the effect of preventing registers in the divided clock

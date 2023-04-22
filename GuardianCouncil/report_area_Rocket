@@ -1,0 +1,112 @@
+dc_shell-topo> report_area -hier 
+ 
+****************************************
+Report : area
+Design : TileResetDomain_1
+Version: U-2022.12-SP2
+Date   : Sat Apr 22 12:29:12 2023
+****************************************
+
+Library(s) Used:
+
+    saed14rvt_ff0p88v25c (File: /local/scratch/kits/synopsys_14/lib/stdcell_rvt/db_nldm/saed14rvt_ff0p88v25c.db)
+    saed14sram_ss0p72v125c (File: /home/zj266/workspace/GC_Backend/src/ChipTop/saed14sram_ss0p72v125c_128x64.db)
+    saed14sram_ss0p72v125c (File: /home/zj266/workspace/GC_Backend/src/ChipTop/saed14sram_ss0p72v125c_32x64.db)
+    saed14sram_ss0p72v125c (File: /home/zj266/workspace/GC_Backend/src/ChipTop/saed14sram_ss0p72v125c_256x64.db)
+    saed14sram_ss0p72v125c (File: /home/zj266/workspace/GC_Backend/src/ChipTop/saed14sram_ss0p72v125c_128x128.db)
+
+Number of ports:                         7947
+Number of nets:                         90168
+Number of cells:                        83017
+Number of combinational cells:          67412
+Number of sequential cells:             15545
+Number of macros/black boxes:              12
+Number of buf/inv:                      17052
+Number of references:                     123
+
+Combinational area:              19201.490202
+Buf/Inv area:                     3105.691148
+Noncombinational area:           14498.864220
+Macro/Black Box area:            29363.207275
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                 63063.561697
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area              Local cell area
+                                  -------------------  ---------------------------------- 
+Hierarchical cell                 Absolute    Percent  Combi-      Noncombi-   Black-
+                                  Total       Total    national    national    boxes       Design
+--------------------------------  ----------  -------  ----------  ----------  ----------  -----------------
+TileResetDomain_1                 63063.5617    100.0   5364.0971   3205.5024   7283.6722  TileResetDomain_1
+tile/core/bpu                        96.9252      0.2     96.9252      0.0000      0.0000  BreakpointUnit_10
+tile/core/csr                      1955.0652      3.1   1107.5136    847.5516      0.0000  CSRFile_1
+tile/core/div                       923.2092      1.5    723.6756    199.5336      0.0000  MulDiv_1
+tile/core/ibuf                      242.9568      0.4    175.8240     67.1328      0.0000  IBuf
+tile/dcache/tlb                    1245.8196      2.0    819.7128    426.1068      0.0000  TLB_1_1
+tile/frontend                     16240.2131     25.8   3807.7440   2944.6080   9487.8612  Frontend
+tile/ghe                           8138.7863     12.9   3785.3219   4353.4643      0.0000  GHE_1
+tile/ptw                          18367.3146     29.1   3320.6760   2454.9648  12591.6738  PTW_1
+--------------------------------  ----------  -------  ----------  ----------  ----------  -----------------
+Total                                                  19201.4902  14498.8642  29363.2073
+
+
+With Wires
+
+report_area -hier
+ 
+****************************************
+Report : area
+Design : TileResetDomain_1
+Version: U-2022.12-SP2
+Date   : Sat Apr 22 17:40:13 2023
+****************************************
+
+Library(s) Used:
+
+    saed14rvt_ff0p88v25c (File: /local/scratch/kits/synopsys_14/lib/stdcell_rvt/db_nldm/saed14rvt_ff0p88v25c.db)
+    saed14sram_ss0p72v125c (File: /home/zj266/workspace/GC_Backend/src/ChipTop/saed14sram_ss0p72v125c_128x64.db)
+    saed14sram_ss0p72v125c (File: /home/zj266/workspace/GC_Backend/src/ChipTop/saed14sram_ss0p72v125c_32x64.db)
+    saed14sram_ss0p72v125c (File: /home/zj266/workspace/GC_Backend/src/ChipTop/saed14sram_ss0p72v125c_128x128.db)
+    saed14sram_ss0p72v125c (File: /home/zj266/workspace/GC_Backend/src/ChipTop/saed14sram_ss0p72v125c_256x64.db)
+
+Number of ports:                         9361
+Number of nets:                         82227
+Number of cells:                        69452
+Number of combinational cells:          53887
+Number of sequential cells:             15546
+Number of macros/black boxes:              12
+Number of buf/inv:                       4285
+Number of references:                     147
+
+Combinational area:              16953.562614
+Buf/Inv area:                      868.641594
+Noncombinational area:           14420.631398
+Macro/Black Box area:            29363.207275
+Net Interconnect area:           30798.797507
+
+Total cell area:                 60737.401287
+Total area:                      91536.198794
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area              Local cell area
+                                  -------------------  ---------------------------------- 
+Hierarchical cell                 Absolute    Percent  Combi-      Noncombi-   Black-
+                                  Total       Total    national    national    boxes       Design
+--------------------------------  ----------  -------  ----------  ----------  ----------  ---------
+TileResetDomain_1                 60737.4013    100.0   2473.9236   1616.0712   9487.8612  TileResetDomain_1
+tile/core                          9287.0591     15.3   4762.2551   2768.3844      0.0000  Rocket
+tile/core/csr                      1756.4196      2.9    932.4888    823.9308      0.0000  CSRFile_1
+tile/dcache                       10173.5350     16.8   1124.6964    603.3960   7283.6722  DCache
+tile/dcache/tlb                    1161.7704      1.9    748.6284    413.1420      0.0000  TLB_1_1
+tile/frontend/btb                  3589.9620      5.9   1792.0284   1797.9336      0.0000  BTB
+tile/ghe/u_channel                 6367.2707     10.5   2412.6071   3954.6635      0.0000  GH_FIFO
+tile/ptw                          17741.7186     29.2   2706.9348   2443.1100  12591.6738  PTW_1
+--------------------------------  ----------  -------  ----------  ----------  ----------  ---------
+Total                                                  16953.5626  14420.6314  29363.2073
+

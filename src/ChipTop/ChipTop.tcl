@@ -31,7 +31,7 @@ analyze -format sverilog ClockDividerN.sv
 
 set files [glob ./*.v]
 foreach file $files {
-    analyze -format verilog $file
+    analyze -format sverilog $file
 }
 
 
@@ -60,3 +60,5 @@ compile_ultra
 report_timing
 
 report_area
+
+report_area -hier

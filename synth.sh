@@ -25,6 +25,7 @@ done
 
 if [[ $microarch != none ]]; then
   cp ../src/${microarch}/* ./
-  dc_shell -64bit -topo -f ${microarch}.tcl
+  cp ../src/common_setup.tcl ./
+  dc_shell -64bit -f ${microarch}.tcl
 fi
 
